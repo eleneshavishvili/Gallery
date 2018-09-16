@@ -1,0 +1,355 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="kaywords" content="elene">
+    <meta name="author" content="elene shavishvili">
+    
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js"></script>
+    <script>
+    // Regular map
+      function regular_map() {
+      var var_location = new google.maps.LatLng(41.690252, 44.808781);
+
+      var var_mapoptions = {
+          center: var_location,
+          zoom: 14
+      };
+
+      var var_map = new google.maps.Map(document.getElementById("map-container"),
+          var_mapoptions);
+
+      var var_marker = new google.maps.Marker({
+          position: var_location,
+          map: var_map,
+          title: "tbilisi k.aphkhazi str.44"
+      });
+      }
+      google.maps.event.addDomListener(window, 'load', regular_map);
+    </script>  
+             
+    <title>elena</title>
+  </head>
+  <body>
+
+
+
+<!-- HEADER -->
+
+  <header id="header" class="header">
+
+
+<!--navigation-->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Photography</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#header">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div> 
+    </nav>
+
+
+
+
+  <!-- HEADER-COVER -->
+
+
+    <div class="header-cover">
+      <div class="container-fluid position-relative">
+        <div class="row">
+          <img class="center-block w-100" src="images/4.jpeg ">
+          <h1 class="d-flex justify-content-center position-absolute wow bounceInLeft"></h1>
+          <a href="#footer" target="_blank" class="scrolldown position-absolute text-center wow bounceInLeft"> <button class="btn btn-md "><i class="fa fa-angle-down angle"></i></button></a>
+        </div>
+      </div>
+    </div>   
+   </div>
+  </header>
+
+
+  <!-- ABOUT -->
+
+
+ <section ID="about" class="about">
+    <div class="container">
+      <div class="row justify-content-center ">
+        <div class="col-11 col-md-12 col-lg-12">
+          <h1 class="text-center">about photography</h1>
+          <p class="text-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        </div>
+         <div class="container">  
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-12 col-lg-4 justify-content-center">
+              <article class="article position-relative d-flex justify-content-center wow fadeInLeft " data-wow-delay="1s">
+                <div class="icon position-absolute">
+                  <i class="fa fa-camera " aria-hidden="true"></i>
+                </div>
+                <div class="article-photo">
+                  <a href="#"><img src="images/mini1.jpg" class="mw-100"></a>
+                  <a href="#"><h1 class="text-left mw-100">lorem ipsum</h1></a>
+                </div>
+              </article>
+            </div>
+     
+      
+            <div class="col-11 col-md-12 col-lg-4 justify-content-center">
+              <article class="article position-relative d-flex justify-content-center wow fadeInLeft" data-wow-delay="0.8s">
+                <div class="icon position-absolute">
+                  <i class="fa fa-camera" aria-hidden="true"></i>
+                </div>
+                <div class="article-photo"> 
+                  <a href="#"><img src="images/mini2.jpg" class="mw-100"></a>
+                  <a href="#"><h1 class="text-left mw-100">lorem ipsum</h1></a>
+                </div>
+              </article>
+            </div>
+    
+     
+            <div class="col-11 col-md-12 col-lg-4 justify-content-center" >
+              <article class="article position-relative d-flex justify-content-center wow fadeInRight" data-wow-delay="1s">
+                <div class="icon position-absolute">
+                  <i class="fa fa-camera" aria-hidden="true"></i>
+                </div>
+                <div class="article-photo">
+                  <a href="#"><img src="images/mini3.jpg" class="mw-100"></a>
+                  <a href="#"><h1 class="text-left mw-100">lorem ipsum</h1></a>
+                </div>
+              </article>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-9 col-lg-9 col-xl-9 mx-auto line "><div>
+      </div> 
+      
+  </section>
+
+
+<!-- GALERRY-->
+
+ <section ID="gallery" class="gallery">
+    <div class="container">
+      <div class="row ">
+        <div class="col">
+          <h1 class="text-center">gallery</h1>
+        </div>
+        <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11 col-md-6 col-lg-3 justify-content-center ">
+            <article class="article position-relative wow fadeInLeft data-wow-delay=1.4s">
+                <div class="galery-photo">
+                  <a href="#"><img src="images/gallery1.jpg" class="w-100"></a>
+                  <div class="gallery-header position-absolute  w-100 ">
+                    <a href="#"><h1 class="text-left">wildlife</h1></a>
+                  </div>
+                </div>
+            </article>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-3 justify-content-center">
+            <article class="article position-relative wow fadeInLeft data-wow-delay=1s">
+                <div class="galery-photo">
+                  <a href="#"><img src="images/gallery2.png" class="w-100"></a>
+                  <div class="gallery-header position-absolute w-100 ">
+                    <a href="#"><h1 class="text-left">portret</h1></a>
+                  </div>
+                </div>
+            </article>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-3 justify-content-center">
+            <article class="article position-relative wow fadeInRight data-wow-delay=1.0s">
+                <div class="galery-photo">
+                  <a href="#"><img src="images/gallery3.jpg" class="w-100"></a>
+                  <div class="gallery-header position-absolute w-100 ">
+                    <a href="#"><h1 class="text-left">animals</h1></a>
+                  </div>
+                </div>
+            </article>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-3 justify-content-center">
+            <article class="article position-relative wow fadeInRight data-wow-delay=1.4s">
+                <div class="galery-photo">
+                  <a href="#"><img src="images/gallery4.jpg" class="w-100"></a>
+                  <div class="gallery-header position-absolute w-100">
+                    <a href="#"><h1 class="text-left">black&white</h1></a>
+                  </div>
+                </div>
+            </article>
+          </div>
+           <div class="col-11 col-md-9 col-lg-9 col-xl-9 mx-auto line"><div>
+        </div>
+        </div> 
+        </div>
+        
+      </div>
+    </div>
+  </div>
+ </section> 
+
+
+<!-- CONTACT -->
+
+
+ <section id="contact" class="contact">
+   <div class="container align-items-center justify-content-center d-block mx-auto py-2 my-2 position-relative d-none d-lg-block">
+      <div class="col">
+          <h1 class="text-center">contact us</h1>
+        </div>
+      <div class="container contact-block">
+        <div class="row">
+          <div class="col-md-12 col-lg-12">        
+            <div class="row no-gutters">
+              <div class="col-lg-4 col-xl-4 d-none d-md-block ">
+                <div id="map-container" class="map-container z-depth-1-hulf" style="height:520px"></div>
+              </div>
+              
+              <div class="col-lg-8 col-xl-8 contact-form px-3">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-xs-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="email">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="subject">
+                      </div>
+                      <div class="form-group d-none d-lg-block">
+                        <textarea class="form-control" rows="6" placeholder=" ... text ... "></textarea>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mx-auto justify-content-sm-center px-5 py-3">
+                        <label class="radio-inline mx-2 mb-2"><input type="radio" name="optradio">mail</label>
+                        <label class="radio-inline mx-2 mb-2"><input type="radio" name="optradio">femail</label>
+                        <div class="form-group mt-5 mb-5 d-none d-md-block d-lg-none">
+                        <textarea class="form-control" rows="6" placeholder=" ... text ... "></textarea>
+                      </div>
+                        <div class="mt-5 mb-5 d-none d-lg-block ">
+                            <h6>sighn up for news</h6>
+                          <div class="form-check">
+                            <label class="form-check-label my-1">
+                              <input type="checkbox" class="form-check-input" value="">Option 1
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label my-1">
+                              <input type="checkbox" class="form-check-input" value="">Option 2
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label my-1">
+                              <input type="checkbox" class="form-check-input" value="">Option 3
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label my-1">
+                              <input type="checkbox" class="form-check-input" value="">Option 4
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn col col-sm-6 ">send</button> 
+                    </div>
+                </div>
+                <div class="social d-none d-lg-block">
+                    <div class="row">
+                      <div class="col-12 mx-auto px-5">                  
+                        <a href=""><i class="fab fa-google-plus-g mx-2 d-inline-block"></i></a>
+                        <a href=""><i class="fab fa-facebook-f mx-2 d-inline-block"></i></a>
+                        <a href=""><i class="fab fa-twitter mx-2 d-inline-block"></i></a> 
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+
+<!-- FOOTER -->
+<div class="">
+
+</div>
+
+ <footer ID="footer" class="footer position-relative" style="background-color:#520254; opacity: .6; height: 82px;">
+  <a href="#header" target="_blank" class="scrollup position-absolute text-center wow bounceInLeft"> <button class="btn btn-md "><i class="fa fa-angle-up angle"></i></button></a>
+  <div class="container">
+    <div class="row">
+      <p class="col pull-left text-left" style="color:#ffffff; line-height: 80px;">@copyright 2018</p>
+      <p class="col pull-right text-right" style="color:#ffffff; line-height: 80px;">created by elene shavishvili</p>
+    </div>
+  </div>
+  </footer>
+
+
+
+
+    <script src="js/wow.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    
+    <script>
+      var burgerMenu = document.querySelector('.burger-menu');
+
+      burgerMenu.addEventListener('click', function(){
+        burgerMenu.classList.toggle('open');  
+      })
+    </script>
+          
+    <script>
+      $(function() {
+        $('a[href*="#"]:not([href="#"])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+ 
